@@ -50,13 +50,13 @@ export function TopNav() {
               </li>
             ))}
           </ul>
-          <a
+          <Link
             className="hidden lg:inline-block py-2 px-6 bg-green-500 hover:bg-green-600 text-sm text-white font-bold rounded-l-xl rounded-t-xl transition duration-200"
             href={ctaLink.link}
             target="_blank"
           >
             {ctaLink.title}
-          </a>
+          </Link>
         </div>
       </nav>
       <div
